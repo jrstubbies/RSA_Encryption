@@ -5,11 +5,10 @@ The client sends a encrypted message to the server which decrypts it (both serve
 using asymmetric keys. Not using an actual CA, so have the server create relevant keys.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
-//
-//      NOTE:
-//          Start up code for the sockets was provided by Massey teacher Napoleon Reyes
-//          All RSA-CBC code done by me
-//
+    NOTE:        
+        Start up code for the sockets was provided by Massey teacher Napoleon Reyes         
+        All RSA-CBC code done by me
+
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 
