@@ -14,6 +14,7 @@ using asymmetric keys. Not using an actual CA, so have the server create relevan
 
 
 SERVER:
+
     - Randomly generates prime numbers (between 5000 - 15000). This gives 'p' and 'q' numbers for 
     server and Certificate Authority (CA). Use these to calculate their 'z' values
     - For server and CA find a prime number that is smaller than their respective 'p' and 'q' values.
@@ -25,6 +26,7 @@ SERVER:
 
 
 CLIENT:
+
     - Client receives the server public keys
     - Client can now type in a message
     - Using the server's public key and the repeat square algorithm this is encrypted and sent.
